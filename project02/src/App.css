@@ -1,0 +1,28 @@
+body{
+  background: url(https://static.vecteezy.com/system/resources/thumbnails/013/022/579/small_2x/weather-in-flat-design-free-vector.jpg);
+  height: 100vh;
+  background-repeat: no-repeat ;
+  background-size: cover;
+}
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.WeatherBox{
+  border: 3px ;
+  padding: 50px;
+  border-radius: 30px;
+  background-color: #d2e3f4;
+  font-family:'bitbit' ;
+}
+@font-face{
+  font-family:'bitbit';
+  src:url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff'),url('//cdn.df.nexon.com/img/common/font/DNFBitBit-Regular.woff2') ;
+}
+.button{
+  font-family:'bitbit' ;
+}
+
