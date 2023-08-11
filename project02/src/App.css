@@ -1,5 +1,5 @@
 body{
-  background: url(https://static.vecteezy.com/system/resources/thumbnails/013/022/579/small_2x/weather-in-flat-design-free-vector.jpg);
+  background: url(https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F4370431%2Fattach%2F5ae261786032422f91cccd8fc094036b);
   height: 100vh;
   background-repeat: no-repeat ;
   background-size: cover;
@@ -12,10 +12,16 @@ body{
   flex-direction: column;
 }
 .WeatherBox{
+  width: 350px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   border: 3px ;
   padding: 50px;
   border-radius: 30px;
-  background-color: #d2e3f4;
+  background-color: #e3effc57;
   font-family:'bitbit' ;
 }
 @font-face{
@@ -24,5 +30,14 @@ body{
 }
 .button{
   font-family:'bitbit' ;
+  width: 350px;
+}
+.btnCL{
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.btnL{
+  margin-right: 10px;
+  margin-top: 10px;
 }
 

@@ -6,12 +6,12 @@ const WeatherButton = ({cities,selectCity, handleCityChange}) => {
   return (
     <div className='button'>   
       
-       <Button variant={`${selectCity == null ? "warning" : "outline-warning"}`}onClick={() => handleCityChange('current')}>CurrentLocation</Button>
-       {cities.map((city,index)=>(
-         <Button variant={`${selectCity == city ? "primary" : "outline-primary"}`} key={index}
-         onClick={() => handleCityChange(city)}
-         >{city}</Button>
-       ))}
+      <Button className='btnCL' variant={`${selectCity == null ? "warning" : "outline-warning"}`}onClick={() => handleCityChange('current')}>CurrentLocation</Button>
+      {cities.map((city,index)=>(
+        <Button className='btnL' variant={`${selectCity == city ? "primary" : "outline-primary"}`} key={index}
+        onClick={() => handleCityChange(city)}
+        >{city}</Button>
+      ))}
     </div>
   )
 }
